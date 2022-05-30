@@ -1,0 +1,32 @@
+.home_banner{
+    position: relative;
+    background: #F1FF54;
+}
+.banner-Image{
+    width:930px;
+    height:920px;
+}
+.banner-Image img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-indicators {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.carousel-indicators [data-bs-target]{
+    width: 100%;
+    height: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    opacity: .2;
+}
+.carousel.slide{
+    margin: 1rem 0;
+    height: 885px;
+    overflow: hidden;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
